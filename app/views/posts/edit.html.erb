@@ -1,0 +1,9 @@
+<%= form_for @post do |el|%>
+  <%= el.label 'Post title:'%><br>
+  <%= el.text_field :title %><br>
+
+  <%= el.label 'Post Description:'%><br>
+  <%= el.text_area :description %><br>
+
+  <%= el.submit "Submit Post" %>
+<% end %>
